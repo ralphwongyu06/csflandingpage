@@ -1,7 +1,7 @@
  jQuery(document).ready(function($) {
  
         $('#myCarousel').carousel({
-                interval: 5000
+                interval: 1000
         });
  
         //Handles the carousel thumbnails
