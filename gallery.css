@@ -5,11 +5,15 @@
 }
 
 .thumbnail {
-    padding: 0;
+    padding: 2px 2px 2px 2px;
 }
 
 .carousel-inner>.item>img, .carousel-inner>.item>a>img {
     width: 100%;
+}
+
+.col-sm-3 a:hover {
+    border: 2px solid #FF4848;
 }
 
 /*!
