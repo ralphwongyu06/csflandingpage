@@ -2,15 +2,15 @@ var r = jQuery.noConflict();
 
 jQuery(document).ready(function($) {
  
-        r('#myCarousel').carousel({
+        jQuery('#myCarousel').carousel({
                 interval: 5000
         });
  
         //Handles the carousel thumbnails
-        r('[id^=carousel-selector-]').click(function () {
-        var id_selector = r(this).attr("id");
+        jQuery('[id^=carousel-selector-]').click(function () {
+        var id_selector = jQuery(this).attr("id");
         try {
-            var id = /-(\d+)r/.exec(id_selector)[1];
+            var id = /-(\d+)jQuery/.exec(id_selector)[1];
             console.log(id_selector, id);
             jQuery('#myCarousel').carousel(parseInt(id));
         } catch (e) {
@@ -18,9 +18,9 @@ jQuery(document).ready(function($) {
         }
     });
         // When the carousel slides, auto update the text
-        r('#myCarousel').on('slid.bs.carousel', function (e) {
-                 var id = r('.item.active').data('slide-number');
-                r('#carousel-text').html(r('#slide-content-'+id).html());
+        jQuery('#myCarousel').on('slid.bs.carousel', function (e) {
+                 var id = jQuery('.item.active').data('slide-number');
+                jQuery('#carousel-text').html(jQuery('#slide-content-'+id).html());
         });
 });
 
