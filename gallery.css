@@ -5,16 +5,17 @@
 }
 
 .thumbnail {
-    padding: 0 0 0 0!important;
-    background-color: #000!important;
+    padding: 2px;
 }
 
 .thumbnail img {
     opacity: 0.5;
+    background-color: #000!important;
 }
 
 .thumbnail img:hover {
     opacity: 1.0;
+    background-color: #000!important;
 }
 
 .carousel-inner>.item>img, .carousel-inner>.item>a>img {
