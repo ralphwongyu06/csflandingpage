@@ -38,6 +38,35 @@
     border-color:  #FF4848!important;
 }
 
+input[type="text"] {
+  font-family:'Montserrat', sans-serif;
+  font-size: 14px;
+  color: #fff;
+}
+
+input[type="email"] {
+  font-family:'Montserrat', sans-serif;
+  font-size: 14px;
+  color: #fff;
+}
+
+::-webkit-input-placeholder {
+  color: #fff;
+  font-size: 14px;
+}
+::-moz-placeholder {
+  color: #fff;
+  font-size: 14px;
+}
+:-ms-input-placeholder {
+  color: #fff;
+  font-size: 14px;
+}
+::placeholder {
+  color: #fff;
+  font-size: 14px;
+}
+
 /*!
  * Bootstrap v3.3.0 (http://getbootstrap.com)
  * Copyright 2011-2014 Twitter, Inc.
