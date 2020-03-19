@@ -74,6 +74,11 @@ input[type="email"] {
     font-weight: 600!important;
 }
 
+.vl {
+  border-left: 3px solid #FF4848;
+  height: 300px;
+}
+
 /*!
  * Bootstrap v3.3.0 (http://getbootstrap.com)
  * Copyright 2011-2014 Twitter, Inc.
