@@ -22,6 +22,10 @@
 }
 
 .col-sm-3 a:hover {
+    border: none!important;
+}
+
+.col-sm-3 a:hover {
     border-width: 2px;
     border-style: solid;
     border-color:  #FF4848!important;
