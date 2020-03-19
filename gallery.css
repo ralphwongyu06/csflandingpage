@@ -67,6 +67,13 @@ input[type="email"] {
   font-size: 14px;
 }
 
+.btn {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+}
+
 /*!
  * Bootstrap v3.3.0 (http://getbootstrap.com)
  * Copyright 2011-2014 Twitter, Inc.
