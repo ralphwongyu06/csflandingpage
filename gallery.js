@@ -10,7 +10,7 @@ jQuery(document).ready(function(rw) {
         rw('[id^=carousel-selector-]').click(function () {
         var id_selector = rw(this).attr("id");
         try {
-            var id = /-(\d+)rw/.exec(id_selector)[1];
+            var id = /-(\d+)$/.exec(id_selector)[1];
             console.log(id_selector, id);
             rw('#myCarousel').carousel(parseInt(id));
         } catch (e) {
