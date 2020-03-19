@@ -4,6 +4,16 @@
     margin-top:20px;
 }
 
+.sport {
+    margin: 0!important;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff!important;
+    padding: 6px 0 0 0;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
 .thumbnail {
     padding: 2px;
     background-color: #000!important;
