@@ -21,7 +21,7 @@
     width: 100%;
 }
 
-.col-sm-3 a:hover {
+.col-sm-3 a {
     border: none!important;
 }
 
