@@ -1,6 +1,6 @@
 var r = jQuery.noConflict();
 
-jQuery(document).ready(function($) {
+jQuery(document).ready(function(r) {
  
         r('#myCarousel').carousel({
                 interval: 5000
