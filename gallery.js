@@ -1,4 +1,4 @@
-jQuery(document).ready(function($) {
+ jQuery(document).ready(function($) {
  
         $('#myCarousel').carousel({
                 interval: 5000
@@ -21,6 +21,3 @@ jQuery(document).ready(function($) {
                 $('#carousel-text').html($('#slide-content-'+id).html());
         });
 });
-
-
-
