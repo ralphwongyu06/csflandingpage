@@ -3,7 +3,8 @@ var rw = jQuery.noConflict();
 jQuery(document).ready(function(rw) {
  
         rw('#myCarousel').carousel({
-                interval: 5000
+                pause: true,
+                interval: false
         });
  
         //Handles the carousel thumbnails
